@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 from datetime import datetime
-from streamlit_autorefresh import st_autorefresh
+
 import pandas as pd
 from io import BytesIO
 import time
