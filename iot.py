@@ -12,7 +12,6 @@ FIREBASE_URL = "https://piot-c14e2-default-rtdb.firebaseio.com/pzemData.json"
 st.set_page_config(page_title="PZEM004T Monitoring", page_icon="⚡️", layout="wide")
 
 # Auto-refresh setiap 5 detik
-st_autorefresh(interval=5000, key="datarefresh")
 
 # Inisialisasi session state
 if "history" not in st.session_state:
